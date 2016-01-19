@@ -576,7 +576,7 @@
                     // prevent downstream MediumEditor wrapping caption text in a
                     // <p> tag
                     if(event.keyCode === 13) {
-                        event.stopPropagation()
+                        event.stopPropagation();
                     }
                 });
         }
